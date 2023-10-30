@@ -78,11 +78,13 @@ body {
     text-decoration: none;
 	background-color: plum;
 	border-radius: 100px;
+	box-shadow: 0 5px 6px rgba(221, 160, 221, .3);
 
 }
 .navbar-brand:hover {
 	transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 	transform: scale(1.05);
+	box-shadow: 0 8px 9px rgba(221, 160, 221, .6);
 }
 
 .section1 {
@@ -123,9 +125,11 @@ marquee {
 	cursor: pointer;
 	border-radius: 100px;
 	border: none;
+	box-shadow: 0 5px 6px rgba(221, 160, 221, .3);
 }
 
 .button:hover {
 	transform: scale(1.10);
 	transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+	box-shadow: 0 8px 9px rgba(221, 160, 221, .6);
 }
