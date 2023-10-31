@@ -2,7 +2,7 @@
 
 Інформатика. Лабораторна робота 8
 - [Переглянути веб-сторінку](https://qwoe1x.github.io/laboratory_work_8/index.html)
-- [Інший хост](https://laboratory-work-8.vercel.app/)
+- [Зеркало](https://laboratory-work-8.vercel.app/)
 
 <div align="center">
 <img alt="VSCode" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
