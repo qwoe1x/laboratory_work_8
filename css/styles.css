@@ -7,6 +7,8 @@ body {
 	min-width: 320px;
 	overflow-x: hidden;
 	height: auto;
+	user-select: none;
+	list-style-type: none;
 }
 .navbar {
     width: 100%;
@@ -79,6 +81,7 @@ body {
 	background-color: plum;
 	border-radius: 100px;
 	box-shadow: 0 5px 6px rgba(221, 160, 221, .3);
+	list-style: none
 
 }
 .navbar-brand:hover {
@@ -133,3 +136,61 @@ marquee {
 	transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 	box-shadow: 0 8px 9px rgba(221, 160, 221, .6);
 }
+
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: plum;
+    border-radius: 20px;
+    padding: 10px;
+	margin-left: 35px;
+    top: 15px;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s, transform 0.3s;
+    list-style: none;
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+	list-style-type: none;
+}
+
+.submenu a {
+	text-decoration: none;
+	color: white;
+}
+
+.submenu a:hover{
+	color: black;
+}
+
+.submenu li:hover {
+	transition: all 5s cubic-bezier(0.075, 0.82, 0.165, 1);
+	transform: scale(1.05);
+}
+
+.submenu ul {
+	list-style: none;
+}
+
+
+
+.has-submenu li {
+    margin-bottom: 10px;
+	list-style-type: none;
+	list-style: none;
+}
+
+.has-submenu li:hover {
+	color: white;
+}
+
+.has-submenu:hover .submenu {
+    display: block;
+    opacity: 1;
+    margin-top: 50px;
+    list-style: none;
+	list-style-type: none;
+}
+
